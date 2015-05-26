@@ -1,5 +1,5 @@
-15muebles
-=========
+Ecometro Association
+====================
 
 WordPress theme for the Ecometro Association site.
 
