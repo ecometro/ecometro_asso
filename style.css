@@ -1540,7 +1540,7 @@ footer .nav-pills>li>a:hover{
 
 footer .span12, footer .span7, footer .span12 .nav-pills{ margin-left: 0;}
 footer .span12 h3{ color: #CD1E3B; font-family: Helvetica, Arial, sans-serif; font-size: 13px}
-footer .span7, footer .span5{ border-top: 1px solid #CD1E3B; }
+footer .redline { border-top: 1px solid #CD1E3B; }
 footer .span12 .textwidget{ margin-left: 0;}
 footer .span12 .textwidget img{ max-width: 110px;}
 @media (max-width: 768px){

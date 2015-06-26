@@ -11,11 +11,13 @@
  */
 ?>
 <footer>
-<?php 
-	
-	wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'nav nav-pills' ) ); 
-	get_sidebar('footer-icons');	
-?>	
+    <div class="row">
+	<div class="span2">
+		<?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'nav nav-pills' ) ); ?>
+	</div>
+	<div class="span5">
+		<?php get_sidebar('footer-icons'); ?>
+	</div>	
 	  		
   		<!-- 
   		<li><a href="#"><img src="<?php //echo get_stylesheet_directory_uri();  ?>/img/icono.jpg" width="42" height="16"></a></li>
@@ -23,12 +25,14 @@
         <li><a href="#"><img src="<?php //echo get_stylesheet_directory_uri();  ?>/img/icono.jpg" width="42" height="16"></a></li>
          -->
 	
-    <a class="github" href="https://github.com/montera34/ecometro" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();  ?>/img/github.png" width="150" height="33" alt="Fork me on Github"></a> 
+	<div class="span2"><a class="github" href="https://github.com/ecometro" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();  ?>/img/github.png" width="150" height="33" alt="Fork me on Github"></a></div>
+ 	<div class="span3">Todas las herramientas Ecómetro son software libre y están disponibles en <a href="http://github.com/ecometro">nuestro espacio github</a>.</div>
+    </div>
     <div class="span12">
-        <div class="span7">
+        <div class="span7 redline">
         <?php get_sidebar('patrocinadores');  ?>
         </div>
-        <div class="span5">
+        <div class="span5 redline">
             <?php get_sidebar('colaboradores');  ?>
         </div>
     </div>
