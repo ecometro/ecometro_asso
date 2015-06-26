@@ -26,7 +26,7 @@
          -->
 	
 	<div class="span2"><a class="github" href="https://github.com/ecometro" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();  ?>/img/github.png" width="150" height="33" alt="Fork me on Github"></a></div>
- 	<div class="span3">Todas las herramientas Ecómetro son software libre y están disponibles en <a href="http://github.com/ecometro">nuestro espacio github</a>.</div>
+ 	<div class="span3">Todas las herramientas Ecómetro son software libre y están disponibles en <a class="btn btn-mini" href="http://github.com/ecometro">nuestro espacio github</a></div>
     </div>
     <div class="span12">
         <div class="span7 redline">
